@@ -1,0 +1,18 @@
+@import url("../css/components/header.css");
+@import url("../css/components/banner.css");
+@import url("../css/components/footer.css");
+
+:root{
+    --white: #FFFFFF;
+    --dark-gray: #333333;
+    --light-gray: #4F4F4F;
+    --font-header: 'Inconsolata';
+    --font-general: 'Space Mono';
+    --font-footer: 'Montserrat';
+}
+
+body {
+    background-color: var(--white);
+    font-size: 16px;
+}
+

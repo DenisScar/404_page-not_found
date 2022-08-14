@@ -1,0 +1,7 @@
+.header__title {
+    font-family: var(--font-header);
+    font-weight: 700;
+    font-size: 24px;
+    margin: 1em;
+    color: #333333;
+}
