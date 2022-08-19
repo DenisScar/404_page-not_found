@@ -1,13 +1,14 @@
+.header__title {
+    font-weight: 700;
+}
+
 .banner {
     margin: 1em;
+    margin-bottom: 7em;
 }
 
 .banner__image {
-    background-image: url("../../assets/Scarecrow.png");
     height: 238px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
     margin: 4em 0;
 }
 
@@ -35,15 +36,51 @@
     font-weight: 700;
     color: #FFF;
     background-color: #333;
-    padding: 1.5em 2em;
+    padding: 2em 2.5em;
     margin-top: 4em;
-    margin-bottom: 7em;
     text-decoration: none;
     display: inline-block;
 }
 
-@media screen and (min-width: 1728px) {
+@media screen and (min-width: 1025px) {
+    .header__title{
+        margin-left: 4.5em;
+    }
+
     .banner {
+      display: flex;
+      justify-content: space-around;
+      align-items: center   ;
+      margin-top: 12.5em;
+      padding: 0 5em;
+    }
+
+    .banner__info {
         display: flex;
+        flex-direction: column;
+        justify-content: right;
+        margin-left: 7.5em;
+    }
+
+    .banner__link {
+        width: 10vw;
+    }
+
+    .info__title {
+        width: 90%;
+        font-size: 64px;
+    }
+
+    .info__text {
+        width: 60%;
+    }
+
+    .banner__image {
+        height: 447px;
+        margin: 4em 0;
+    }
+
+    .info__text {
+        font-size: 24px;
     }
 }
